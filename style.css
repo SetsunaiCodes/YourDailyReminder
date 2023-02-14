@@ -332,6 +332,14 @@ section .wave.wave4{
     background-repeat: no-repeat;
     background-position: bottom;
 }
+.cool{
+    height: 30px;
+    width: 30px;
+    background-image: url(images/cool.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 @keyframes animate
 {
     0%
