@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourDailyReminder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+    <div class="wave wave1"></div>
+    <div class="wave wave2"></div>
+    <div class="wave wave3"></div>
+    <div class="wave wave4"></div>
+    <div class="mainbox">
+        <form id="keywordForm">
+            <div id="keywordbox" class="keywordbox">
+                <div class="keywordemote"></div>
+                <h1>Gib dein Keyword ein</h1>
+                <p>Um auf YourDailyReminder zugreifen zu können, ist ein Keyword nötig!</p>
+                <div class="inputbox">
+                    <input type="text"  id="keyword" class="form__input" autocomplete="off" placeholder=" ">
+                    <label for="keyword" class="form__label">Keyword</label>
+                </div>
+            </div>
+            <div class="buttonbox">
+                <button type="submit" id="keywordbutton" onclick="inputCheck()">Los geht's!</button>
+            </div>
+        </div>
+    </form>
+    </div>
+</section>
+<div id="content" class="overviewbox hider">
+<div class="welcome reveal"><h1>Guten Tag</h1></div>
+<div class="timer">
+    <div class="timerbox box">
+        <div class="uhr"></div>
+        <p class="timerheading">Neue Reminder in:</p>
+        <p class="timertimer"><span id="countdown"></span></p>
+        <div class="uhr"></div>
+    </div>
+</div>
+<div class="module">
+    <div class="inspoquotebox box">
+        <div class="headergruppe">
+            <div class="birne"></div>
+            <h1>Inspiration</h1>
+            <div class="birne"></div>
+        </div>
+        <p>Kindness is one thing you can't give away. It always comes back.<br>~George Skolsky~</p>
+    </div>
+    <div class="inspoquotebox box">
+        <div class="headergruppe">
+        <div class="letter"></div>
+        <h1>Nicos Gedanken</h1>
+        <div class="letter"></div>
+        </div>
+        <p>Erfolg ist ähnlich wie Bogenschießen. Es geht nicht um die Geschwindigkeit des Pfeils, sondern um die Genauigkeit.</p>
+    </div>
+</div>
+<div class="moduleunten">
+    <div class="box thingsneversaidbox">
+        <div class="headergruppe">
+        <div class="frage"></div>
+        <h1>Hast du heute schon?</h1>
+        <div class="frage"></div>
+        </div>
+        <p>genügend Wasser getrunken?</p>
+    </div>
+</div>
+</div>
+<script src="main.js"></script>  
+</body>
+</html>
